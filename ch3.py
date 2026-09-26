@@ -30,3 +30,35 @@ print(f"Membership : \n {"H" in s}")
 # Comparison of string
 print(f"Comparison of string : \n {"nik" == "nik"}")
 print(s)
+
+name = input("Enter a name:")
+print(f"Good Morning {name}")
+
+letter = """
+           Dear name
+           You are selected!
+           date
+           ...
+         """
+print(letter.replace("name","Nikita").replace("date","4 Octomber 2026"))
+
+name = "Hey  i am nikki i am a good  girl"
+print(name.find("  "))
+
+Letter = "Dear Nikita,\n This is python course is nice.\nThanks! "
+print(Letter)
+
+name ="nikki"
+print(name[-3:-1])
+print(name[1:3])
+# Strings Operations
+print(len(name))
+print(name.upper())
+print(name.capitalize())
+print(name.startswith("ki"))
+print(name.endswith("ki"))
+print(name.count("k"))
+print(name.replace("n","v"))
+print(name.find("n"))
+print(name.split(","))
+print(name.strip())
