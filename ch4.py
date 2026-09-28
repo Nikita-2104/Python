@@ -44,6 +44,7 @@ t = (23, 56, 67, 45)
 t[2] = 78
 print(t)
 
+
 l = [34, 56, 78, 56]
 print(f"The sum the list's number is {sum(l)}")
 
