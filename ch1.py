@@ -15,5 +15,7 @@ import os
 directory_path = "Chapter4"
 contents = os.listdir(directory_path)
 print(contents)
-# for item in contents:
-#     print(item)
+
+
+for item in contents:
+     print(item)
