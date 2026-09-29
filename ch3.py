@@ -94,3 +94,4 @@ print(name.replace("n","v"))
 print(name.find("n"))
 print(name.split(","))
 print(name.strip())
+
