@@ -18,7 +18,7 @@ while (i < 5):
     i += 1 
 
 
- FOR LOOP WITH STRINGS
+# FOR LOOP WITH STRINGS
 
 name = "NIKKI"
 
@@ -26,7 +26,7 @@ for latter in name:
     print(latter)
 
 
-FOR LOOP WITH LISTS
+# FOR LOOP WITH LISTS
 
 list = ["nik", "piyu", "nidh"]
 
@@ -34,7 +34,7 @@ for name in list:
     print(name)
 
 
-FOR LOOP WITH TUPLE
+# FOR LOOP WITH TUPLE
 
 tuple = (1, 3, 23, "me")
 
@@ -42,7 +42,7 @@ for numbers in tuple:
     print(numbers)
 
 
-FOR LOOP WITH DICTIONARY
+# FOR LOOP WITH DICTIONARY
 
 dict = {
     "name" : "nik",
@@ -55,7 +55,7 @@ for details in dict.items():
 
 
 
-FOR LOOP WITH SET
+# FOR LOOP WITH SET
 
 
 clr = {"Red", "pink", "blue"}
@@ -64,7 +64,7 @@ for color in clr:
 
 
 
-WHILE LOOP WITH LIST
+# WHILE LOOP WITH LIST
 
 i = 0
 while i <= 5:
@@ -72,7 +72,8 @@ while i <= 5:
     i += 1
 
 
-PRINTING STARS
+# PRINTING STARS
+# Code for printing stars pattern
 
 n = int(input("Enter the number:"))
 
@@ -80,7 +81,7 @@ for i in range(1, 6):
     print("*" * i)
     i += 1
 
-
+# Code  printing numbers
 for i in range(3):
     for j in range(2):
         print(i, j)
