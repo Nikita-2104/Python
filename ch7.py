@@ -319,7 +319,7 @@ print(f"Odd = {odd}")
 
 
 
-for i in range()
+for i in range():
 
 
 numbers = [4, 2, 7, 1]
