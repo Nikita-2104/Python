@@ -1,3 +1,4 @@
+# to check if the age is even or odd 
 age = int(input("Enter your age:"))
 # Starting of the if statement : 2
 if (age % 2 == 0):
@@ -14,6 +15,8 @@ else:
 print("End of the program")
 
 
+
+# to check the greatest number among 4 numbers
 a = int(input("Enter the first no.:"))
 b = int(input("Enter the second no.:"))
 c = int(input("Enter the third no.:"))
@@ -28,6 +31,8 @@ else:
     print("D is the Greatest number")
 
 
+
+#  to print an avg of 3 subject
 sub1 = int(input("Enter the marks:"))
 sub2 = int(input("Enter the marks:"))
 sub3 = int(input("Enter the marks:"))
@@ -39,6 +44,8 @@ else:
 
 
 
+
+#  to check if the msg is mallicious or not
 m1 = "only now"
 m2 = "apply now"
 m3 = "make a lot of money" 
@@ -51,6 +58,7 @@ else:
 
 
 
+# to give an condition that the username mst be <10 characters 
 username = input("Enter your username : ")
 if (len(username) < 10):
     print("Your username is Valid..!")
@@ -59,6 +67,8 @@ else:
 
 
 
+
+# to check if the name is present in the list or not
 l = ["nikki" , "vanshuu" , "nidhi"]
 name = input("Enter your name: ")
 if (name in l):
@@ -68,6 +78,8 @@ else:
 
 
 
+
+# to give the grade according to the marks
 marks = int(input("Enter your marks:"))
 if (marks <= 100 and marks > 90):
     grade = "Ex"
@@ -87,6 +99,8 @@ print(f"Your grade is : {grade}")
 
 
 
+
+# to see if the post is talking about you or not
 post = input("Enter the comment:")
 if ("nikki" in post):
     print("Yes this post is talking about you!") 
