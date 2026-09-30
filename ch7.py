@@ -12,6 +12,7 @@ for i in s:
     print(i)
 
 
+# to print myname 5 times
 i = 0
 while (i < 5):
     print("Nik")
@@ -19,37 +20,29 @@ while (i < 5):
 
 
 # FOR LOOP WITH STRINGS
-
 name = "NIKKI"
-
 for latter in name:
     print(latter)
 
 
 # FOR LOOP WITH LISTS
-
 list = ["nik", "piyu", "nidh"]
-
 for name in list:
     print(name)
 
 
 # FOR LOOP WITH TUPLE
-
 tuple = (1, 3, 23, "me")
-
 for numbers in tuple:
     print(numbers)
 
 
 # FOR LOOP WITH DICTIONARY
-
 dict = {
     "name" : "nik",
     "age" : 20,
     "city" : "ankleshwar"
 }
-
 for details in dict.items():
     print(details)
 
