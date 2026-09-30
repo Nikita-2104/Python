@@ -1,8 +1,13 @@
-#fruits = ["Apple", "Banana", "Mango"]
+# simple code to print fruits nd sum of num
+fruits = ["Apple", "Banana", "Mango"]
+print(fruits)
 numbers = [1, 2, 3]
-# print(sum(numbers))
+print(sum(numbers))
 print(())
 
+
+
+# to print the furits name user wants to insert in list
 fruits = []
 f1 = input("Enter the fruit name:")
 fruits.append(f1)
@@ -20,6 +25,10 @@ f7 = input("Enter the fruit name:")
 fruits.append(f7)
 print(fruits)
 
+
+
+
+# to print the marks user wants to insert in list
 marks = []
 m1 = input("Enter the marks:")
 marks.append(m1)
@@ -39,15 +48,21 @@ marks.sort()
 print(marks)
 
 
+
 # We cant change or modify the tuple becuse it is IMMUTABLE 
+# So this code will gives an error
 t = (23, 56, 67, 45)
 t[2] = 78
 print(t)
 
 
+
+# to print the sum of numbers stored in list
 l = [34, 56, 78, 56]
 print(f"The sum the list's number is {sum(l)}")
 
 
+
+# count fun will count that how many times 4 is appears in ur list
 t = (2, 4, 0, 8, 0, 6, 7, 0, 0)
 print(t.count(4))
